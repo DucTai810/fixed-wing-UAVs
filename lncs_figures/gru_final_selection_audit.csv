@@ -1,0 +1,2 @@
+candidate,development_protocol,future_test_protocol,window,hidden_size,layers,dropout,epochs,learning_rate,development_RMSLE,heldout_C4_C7_RMSLE,heldout_C4_C7_RMSE_W,heldout_C4_C7_R2,selection_note
+h64_l2_do05_devselected,C1_to_C2_and_C1_C2_to_C3_only,C4_to_C7_held_out,64,64,2,0.05,55,0.0007,0.2736248529001452,0.2587782487176063,22.991407086842266,0.8703869042986349,Architecture selected on development folds only; future C4-C7 not used for selection.

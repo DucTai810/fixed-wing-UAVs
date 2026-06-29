@@ -1,0 +1,14 @@
+,0
+threshold_Wh,10.105675841579137
+mean_error_Wh,-0.09536772337290898
+mean_abs_error_Wh,0.7233497132078328
+median_abs_error_Wh,0.4743459941678938
+p90_abs_error_Wh,1.3068426446528472
+p95_abs_error_Wh,2.716485191359576
+spearman_rank,0.22054065337647427
+top_quintile_share_percent,21.86120525550748
+random_quintile_share_percent,20.0
+watch_tp,4.0
+watch_fp,9.0
+watch_fn,5.0
+watch_tn,48.0

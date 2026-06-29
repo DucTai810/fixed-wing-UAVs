@@ -1,0 +1,7 @@
+model,RMSE_W,MAE_W,RMSLE,R2,delta_R2,source
+Linear pitch,44.505006413416936,36.001097737993895,0.5689437525250227,0.5143364420784562,,retrained watt-scale rolling linear baseline
+Physics proxy,45.51960119750719,35.717920845517106,0.5269987608424249,0.4919403809788715,,executed rolling physics proxy
+Ridge tabular,35.78,25.96,0.356,0.6861,,retrained rolling Ridge level baseline
+LSTM state time,28.04,19.91,0.3055,0.8073,0.1694,executed sequence baseline artifact
+TCN state time,29.32,23.7,0.282,0.7893,0.1676,executed TCN rolling artifact
+GRU state time,22.991407086842266,16.779718391410643,0.2587782487176063,0.8703869042986349,0.4280545197414985,gru_final_aggregate_metrics.csv

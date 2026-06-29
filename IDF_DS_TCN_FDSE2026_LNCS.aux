@@ -1,0 +1,125 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{shakhatreh2019survey}
+\citation{mozaffari2019tutorial}
+\citation{hayat2016survey}
+\citation{zeng2017energy}
+\citation{difranco2016coverage}
+\citation{abeywickrama2018access}
+\citation{gora2022ml}
+\citation{zhang2021models}
+\@writefile{toc}{\contentsline {title}{No-PWM Power Estimation for Fixed-Wing UAVs: A Rolling GRU Baseline with Preliminary Attribution and Flight-Level Energy Indicators}{1}{chapter.2}\protected@file@percent }
+\@writefile{toc}{\authcount {3}}
+\@writefile{toc}{\contentsline {author}{Thu Le \and Hoang Duc Tai \and Nhat Truong}{1}{chapter.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.3}\protected@file@percent }
+\citation{garcia2026idfds}
+\citation{hayat2016survey}
+\citation{yaacoub2020security}
+\citation{cho2014gru}
+\citation{hochreiter1997lstm}
+\citation{bai2018tcn}
+\citation{salinas2020deepar}
+\citation{lim2021tft}
+\citation{fawaz2019dlts}
+\citation{bergmeir2018cv}
+\citation{kaufman2012leakage}
+\citation{stolaroff2018drone}
+\citation{lundberg2017shap}
+\citation{arrieta2020xai}
+\newlabel{eq:target}{{1}{2}{Introduction}{equation.4}{}}
+\citation{shakhatreh2019survey}
+\citation{zeng2017energy}
+\citation{garcia2026idfds}
+\citation{lundberg2017shap}
+\citation{hochreiter1997lstm}
+\citation{cho2014gru}
+\citation{bai2018tcn}
+\citation{hochreiter1997lstm}
+\citation{cho2014gru}
+\citation{salinas2020deepar}
+\citation{lim2021tft}
+\citation{fawaz2019dlts}
+\citation{kaufman2012leakage}
+\citation{bergmeir2018cv}
+\citation{stolaroff2018drone}
+\citation{lundberg2017shap}
+\citation{arrieta2020xai}
+\citation{garcia2025zenodo}
+\citation{garcia2026idfds}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work and Research Positioning}{3}{section.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Five focal related works and the position of the proposed no PWM state time benchmark.}}{3}{table.7}\protected@file@percent }
+\newlabel{tab:related}{{1}{3}{Five focal related works and the position of the proposed no PWM state time benchmark}{table.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Materials and Methods}{4}{section.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Dataset and Chronological Partition}{4}{subsection.9}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces End to end state time workflow used to construct and evaluate the power regression benchmark without PWM.}}{4}{figure.11}\protected@file@percent }
+\newlabel{fig:workflow}{{1}{4}{End to end state time workflow used to construct and evaluate the power regression benchmark without PWM}{figure.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Cleaned IDF DS subset used by the no-PWM benchmark. The panels report retained flights and records, the empirical power distribution, campaign-level mean power, phase-level mean power, and an aggregate mission-time trace. The trace is a binned sum of \texttt  {power\_w} over all retained flights, included only to show temporal coverage and scale; it is not a single-flight trajectory or a future-test prediction.}}{5}{figure.13}\protected@file@percent }
+\newlabel{fig:data}{{2}{5}{Cleaned IDF DS subset used by the no-PWM benchmark. The panels report retained flights and records, the empirical power distribution, campaign-level mean power, phase-level mean power, and an aggregate mission-time trace. The trace is a binned sum of \texttt {power\_w} over all retained flights, included only to show temporal coverage and scale; it is not a single-flight trajectory or a future-test prediction}{figure.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}State Time Feature Policy}{5}{subsection.14}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Feature inventory and leakage controls in the state time pipeline.}}{5}{table.16}\protected@file@percent }
+\newlabel{tab:features}{{2}{5}{Feature inventory and leakage controls in the state time pipeline}{table.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Association analysis computed only on early campaigns C1 to C3 with enlarged labels for print readability. The ranking is descriptive and is not used to tune future test folds.}}{6}{figure.18}\protected@file@percent }
+\newlabel{fig:assoc}{{3}{6}{Association analysis computed only on early campaigns C1 to C3 with enlarged labels for print readability. The ranking is descriptive and is not used to tune future test folds}{figure.18}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}PWM Ablation for Feature Policy}{6}{subsection.19}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Executed feature-policy ablation. PWM improves accuracy, but the main paper keeps the no-PWM setting as a conservative deployment-oriented benchmark.}}{6}{table.21}\protected@file@percent }
+\newlabel{tab:pwmablation}{{3}{6}{Executed feature-policy ablation. PWM improves accuracy, but the main paper keeps the no-PWM setting as a conservative deployment-oriented benchmark}{table.21}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Causal Feature Engineering and Model}{7}{subsection.22}\protected@file@percent }
+\newlabel{eq:q}{{2}{7}{Causal Feature Engineering and Model}{equation.23}{}}
+\newlabel{eq:lag}{{3}{7}{Causal Feature Engineering and Model}{equation.24}{}}
+\newlabel{eq:tcn}{{4}{7}{Causal Feature Engineering and Model}{equation.25}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Evaluation Protocol}{7}{subsection.26}\protected@file@percent }
+\citation{hyndman2006forecast}
+\newlabel{eq:rmsle}{{5}{8}{Evaluation Protocol}{equation.27}{}}
+\newlabel{eq:deltaR2}{{6}{8}{Evaluation Protocol}{equation.28}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results and Analysis}{8}{section.29}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Baseline Behavior}{8}{subsection.30}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Aggregate model comparison and fold level GRU performance; the GRU fold numbers are reported explicitly in Table~\ref {tab:foldgru}.}}{8}{figure.32}\protected@file@percent }
+\newlabel{fig:perf}{{4}{8}{Aggregate model comparison and fold level GRU performance; the GRU fold numbers are reported explicitly in Table~\ref {tab:foldgru}}{figure.32}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Future Campaign Performance}{8}{subsection.33}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Aggregate C4--C7 rolling future comparison under the same no PWM feature policy.}}{9}{table.35}\protected@file@percent }
+\newlabel{tab:results}{{4}{9}{Aggregate C4--C7 rolling future comparison under the same no PWM feature policy}{table.35}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Fold level selected GRU performance on future campaigns.}}{9}{table.37}\protected@file@percent }
+\newlabel{tab:foldgru}{{5}{9}{Fold level selected GRU performance on future campaigns}{table.37}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Leakage Controls and Residual Structure}{9}{subsection.38}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Integrated audit and diagnostic visualization for the final GRU. Panel~(a) compares the valid rolling future campaign protocol with an invalid random row reference. Panel~(b) reports actual versus predicted behavior, residual scatter, residual distribution, and Q--Q behavior. Panel~(c) shows representative future campaign traces.}}{9}{figure.40}\protected@file@percent }
+\newlabel{fig:auditdiagnostics}{{5}{9}{Integrated audit and diagnostic visualization for the final GRU. Panel~(a) compares the valid rolling future campaign protocol with an invalid random row reference. Panel~(b) reports actual versus predicted behavior, residual scatter, residual distribution, and Q--Q behavior. Panel~(c) shows representative future campaign traces}{figure.40}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Flight-Level Energy and Preliminary Attribution Evidence}{10}{subsection.41}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces No-PWM GRU flight-level energy audit.}}{10}{algorithm.42}\protected@file@percent }
+\newlabel{alg:smartcityedge}{{1}{10}{Flight-Level Energy and Preliminary Attribution Evidence}{algorithm.42}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Flight-level energy evidence.}{10}{section*.56}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Three operating thresholds for flight-level watch-list review.}}{10}{table.58}\protected@file@percent }
+\newlabel{tab:ops}{{6}{10}{Three operating thresholds for flight-level watch-list review}{table.58}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Preliminary attribution evidence for flight-level review.}{10}{section*.59}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces UAV energy audit view rendered from executed final outputs: held out flight energy review, baseline context, preliminary attribution notes, and explicit limitations. The watch-list performance is weak and supports human triage only, not automated dispatch.}}{11}{figure.55}\protected@file@percent }
+\newlabel{fig:deployaudit}{{6}{11}{UAV energy audit view rendered from executed final outputs: held out flight energy review, baseline context, preliminary attribution notes, and explicit limitations. The watch-list performance is weak and supports human triage only, not automated dispatch}{figure.55}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{12}{section.60}\protected@file@percent }
+\citation{garcia2026idfds}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{13}{section.61}\protected@file@percent }
+\bibcite{shakhatreh2019survey}{1}
+\bibcite{zeng2017energy}{2}
+\bibcite{mozaffari2019tutorial}{3}
+\bibcite{hayat2016survey}{4}
+\bibcite{garcia2026idfds}{5}
+\bibcite{garcia2025zenodo}{6}
+\bibcite{yaacoub2020security}{7}
+\@writefile{toc}{\contentsline {paragraph}{Acknowledgements.}{14}{section*.62}\protected@file@percent }
+\bibcite{lundberg2017shap}{8}
+\bibcite{arrieta2020xai}{9}
+\bibcite{difranco2016coverage}{10}
+\bibcite{abeywickrama2018access}{11}
+\bibcite{gora2022ml}{12}
+\bibcite{zhang2021models}{13}
+\bibcite{bai2018tcn}{14}
+\bibcite{kaufman2012leakage}{15}
+\bibcite{bergmeir2018cv}{16}
+\bibcite{hyndman2006forecast}{17}
+\bibcite{salinas2020deepar}{18}
+\bibcite{lim2021tft}{19}
+\bibcite{fawaz2019dlts}{20}
+\bibcite{hochreiter1997lstm}{21}
+\bibcite{cho2014gru}{22}
+\bibcite{batty2012smart}{23}
+\bibcite{stolaroff2018drone}{24}
+\gdef \@abspage@last{15}

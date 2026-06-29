@@ -1,0 +1,9 @@
+,0
+future_flights,66.0
+training_policy_threshold_Wh,10.105675841579135
+median_actual_energy_Wh,9.422143480771325
+median_predicted_energy_Wh,9.513831534535875
+mean_absolute_energy_error_Wh,0.7233497132078328
+median_absolute_percent_error,5.4230886461976935
+energy_rank_spearman,0.22054065337647427
+top20_predicted_flights_actual_energy_share_percent,21.86120525550748

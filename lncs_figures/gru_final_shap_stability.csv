@@ -1,0 +1,5 @@
+campaign,top_feature,top_mean_abs_shap,sin_pitch_rank,sin_pitch_mean_abs_shap,sin_pitch_is_top
+4,ground_speed_3d,0.6275586313340386,3,0.41691853479744484,False
+5,sin_pitch,0.40599864511771544,1,0.40599864511771544,True
+6,ground_speed_3d,0.47367493272598377,2,0.39457671814113804,False
+7,air_rho,0.40759930374270703,2,0.3083071707797478,False

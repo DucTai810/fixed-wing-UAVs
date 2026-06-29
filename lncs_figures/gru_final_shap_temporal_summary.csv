@@ -1,0 +1,10 @@
+,0
+background_windows,64.0
+explained_windows,1056.0
+explained_future_flights,66.0
+windows_per_future_flight,16.0
+recent_0_5s_attribution_mass_percent,70.25819829470936
+sin_pitch_top_in_all_campaigns,False
+sin_pitch_worst_campaign_rank,3.0
+permutation_baseline_RMSE_W,19.117176694934138
+permutation_baseline_MAE_W,11.805650719222998
