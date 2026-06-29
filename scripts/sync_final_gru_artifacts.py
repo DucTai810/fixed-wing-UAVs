@@ -24,8 +24,9 @@ from torch.utils.data import DataLoader, TensorDataset
 
 warnings.filterwarnings("ignore", category=pd.errors.PerformanceWarning)
 SEED = 42
-DATA_PATH = Path("dataset_timeseries_cleaned_v2.csv")
-OUT_DIR = Path("lncs_figures")
+ROOT = Path(__file__).resolve().parents[1]
+DATA_PATH = ROOT / "data" / "dataset_timeseries_cleaned_v2.csv"
+OUT_DIR = ROOT / "lncs_figures"
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 BATCH_SIZE = 1024 if DEVICE.type == "cuda" else 512
 OUTER_CAMPAIGNS = [4, 5, 6, 7]

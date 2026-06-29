@@ -2,7 +2,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 HTML = ROOT / "lncs_figures" / "smartcity_management_dashboard.html"
 OUT = ROOT / "lncs_figures" / "smartcity_management_playwright.png"
 

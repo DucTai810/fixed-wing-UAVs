@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated artifacts
+output/
+lncs_figures/*.png
+lncs_figures/*.pdf
+lncs_figures/*.log
+lncs_figures/*.aux
+lncs_figures/*.out
+lncs_figures/*.synctex.gz
+*.log
+*.aux
+*.out
+*.synctex.gz
+
+# OS files
+.DS_Store
+Thumbs.db

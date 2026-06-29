@@ -1,0 +1,10 @@
+jupyter>=1.0
+matplotlib>=3.8
+numpy>=1.26
+pandas>=2.2
+playwright>=1.44
+scikit-learn>=1.4
+scipy>=1.13
+seaborn>=0.13
+shap>=0.45
+torch>=2.2
