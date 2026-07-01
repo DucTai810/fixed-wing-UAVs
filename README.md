@@ -69,6 +69,10 @@ pip install -r requirements.txt
 
 For dashboard screenshot generation, install the Playwright browser runtime:
 
+```powershell
+playwright install chromium
+
+
 
 
 
