@@ -77,17 +77,9 @@ playwright install chromium
 
 Open the notebooks:
 
-```powershell
-jupyter lab
+```powershe
 ```
 
-Run the reproducible scripts from the repository root:
 
-```powershell
-python scripts/render_smartcity_dashboard.py
-python scripts/sync_final_gru_artifacts.py
-```
-
-Generated artifacts are written mainly to `lncs_figures/` and `output/`.
 
 
