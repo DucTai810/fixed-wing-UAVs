@@ -75,11 +75,5 @@ playwright install chromium
 
 ## Usage
 
-Open the notebooks:
-
-```powershe
-```
-
-
 
 
