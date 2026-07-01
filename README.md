@@ -73,9 +73,7 @@ For dashboard screenshot generation, install the Playwright browser runtime:
 playwright install chromium
 ```
 
-## Usage
-
-Open the notebooks:
+#
 
 
 
