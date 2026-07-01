@@ -88,14 +88,4 @@ python scripts/render_smartcity_dashboard.py
 python scripts/sync_final_gru_artifacts.py
 ```
 
-Generated artifacts are written mainly to `lncs_figures/` and `output/`.
 
-## Reproducibility Notes
-
-- Keep `data/dataset_timeseries_cleaned_v2.csv` available before running notebooks or scripts.
-- Use the dependency ranges in `requirements.txt`.
-- Large regenerated artifacts can be kept outside Git or managed with Git LFS if needed.
-
-## Purpose
-
-This project supports fixed-wing UAV telemetry research, model comparison, diagnostic analysis, and publication-ready result generation.
