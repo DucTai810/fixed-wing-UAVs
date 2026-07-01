@@ -98,4 +98,4 @@ Generated artifacts are written mainly to `lncs_figures/` and `output/`.
 
 ## Purpose
 
-This project supports fixed-wing UAV telemetry research, model comparison, diagnostic analysis, and publication-ready result generation.
+This project supports fixed-wing UAV telemetry research, model comparison, diagnostic 
