@@ -67,7 +67,10 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-For dashboard screenshot generation, install the Playwright 
+For dashboard screenshot generation, install the Playwright browser runtime:
+
+```powershell
+playwright install chromium
 
 
 
