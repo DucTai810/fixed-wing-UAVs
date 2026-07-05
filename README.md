@@ -71,7 +71,6 @@ For dashboard screenshot generation, install the Playwright browser runtime:
 
 ```powershell
 playwright install chromium
-a
 
 
 
