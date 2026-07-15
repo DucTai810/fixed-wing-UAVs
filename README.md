@@ -57,17 +57,6 @@ The actuator-aware workflow adds actuator-related signals to the feature set. Co
 
 Evaluation artifacts in `lncs_figures/` summarize model performance, feature importance, uncertainty, energy-related diagnostics, and paper-ready tables or figures. These outputs make it easier to compare experiments and trace final results back to the notebooks or scripts that produced them.
 
-## Setup
-
-Create an environment and install the required packages:
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-```
-
-For dashboard screenshot generation, install the Playwright browser runtime:
 
 
 
