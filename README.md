@@ -61,6 +61,13 @@ Evaluation artifacts in `lncs_figures/` summarize model performance, feature imp
 
 Create an environment and install the required packages:
 
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+For dashboard screenshot generation, install the Playwright browser runtime:
 
 
 
